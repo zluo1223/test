@@ -1,0 +1,20 @@
+# Define CSS styles
+css_content <- "
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #343a40;
+    text-align: center;
+}
+p {
+    font-size: 16px;
+    color: #6c757d;
+}
+"
+
+# Save to a CSS file
+writeLines(css_content, "styles.css")
